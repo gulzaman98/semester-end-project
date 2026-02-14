@@ -1,0 +1,33 @@
+[
+  {
+    "id": 1,
+    "title": "Origami Crane",
+    "image": "home-images/home page-2.jpg",
+    "description": "The origami crane is a symbol of peace and hope. It is one of the most famous and beautiful origami models in the world."
+  },
+  {
+    "id": 2,
+    "title": "Origami Heart",
+    "image": "home-images/home page-3.jpg",
+    "description": "Origami heart represents love, care, and friendship. Perfect for gifts and greeting cards."
+  },
+  {
+    "id": 3,
+    "title": "Origami Frog",
+    "image": "home-images/home page-4.jpg",
+    "description": "A fun jumping frog model loved by kids. It improves creativity and motor coordination."
+  },
+  {
+    "id": 4,
+    "title": "Origami Butterfly",
+    "image": "home-images/home page-5.jpg",
+    "description": "The origami butterfly symbolizes transformation, beauty, and freedom."
+  },
+   {
+    "id": 5,
+    "title": "Origami Star",
+    "image": "home-images/home page-6.jpg",
+    "description": "A simple, decorative paper star folded using origami techniques, perfect for crafts or festive decorations."
+  }
+]
+

@@ -175,3 +175,37 @@ document.addEventListener("DOMContentLoaded", function () {
 
 });
 
+// MODAL WORK 
+// MODAL WORK (AJAX SAFE VERSION)
+
+let origamiData = [];
+
+fetch('data.json')
+    .then(res => res.json())
+    .then(data => origamiData = data);
+
+$(document).on('click', '.origami-card', function () {
+
+    let id = $(this).data('id');
+    let item = origamiData.find(x => x.id == id);
+
+    if (item) {
+        $('#modalImage').attr('src', item.image);
+        $('#modalTitle').text(item.title);
+        $('#modalDesc').text(item.description);
+
+        $('#origamiModal').fadeIn();
+    }
+
+});
+
+$(document).on('click', '.modal-close, .modal-overlay', function () {
+    $('#origamiModal').fadeOut();
+});
+
+
+
+
+
+
+
