@@ -58,6 +58,10 @@ $(document).ready(function () {
         e.preventDefault();
         loadpage("elders")
     })
+      $("#animals").click(function (e) {
+        e.preventDefault();
+        loadpage("animals")
+    })
 
     // CARDS 
 
@@ -75,6 +79,10 @@ $(document).ready(function () {
 
     $(document).on("click", "#backelders", function () {
         loadpage("elders");
+    })
+
+     $(document).on("click", "#backanimals", function () {
+        loadpage("animals");
     })
 
     // LOAD INITIAL PAGE
@@ -127,53 +135,8 @@ function startHeroslider() {
 
 // CONTACT PAGE VALIDATION
 
-document.addEventListener("DOMContentLoaded", function () {
 
-    const contactForm = document.getElementById("contactForm");
 
-    // Check if there's already saved data
-    if (localStorage.getItem("contactFormData")) {
-        const savedData = JSON.parse(localStorage.getItem("contactFormData"));
-        document.getElementById("name").value = savedData.name || "";
-        document.getElementById("email").value = savedData.email || "";
-        document.getElementById("message").value = savedData.message || "";
-    }
-
-    // Form submit event
-    contactForm.addEventListener("submit", function (e) {
-        e.preventDefault();
-
-        // Get form values
-        const name = document.getElementById("name").value.trim();
-        const email = document.getElementById("email").value.trim();
-        const message = document.getElementById("message").value.trim();
-
-        // Simple validation
-        if (name === "" || email === "" || message === "") {
-            alert("Please fill out all fields!");
-            return;
-        }
-
-        if (!validateEmail(email)) {
-            alert("Please enter a valid email address!");
-            return;
-        }
-
-        // Save to localStorage
-        const formData = { name, email, message };
-        localStorage.setItem("contactFormData", JSON.stringify(formData));
-
-        alert("Your message has been saved successfully!");
-        contactForm.reset();
-    });
-
-    // Email validation function
-    function validateEmail(email) {
-        const re = /^[a-zA-Z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$/;
-        return re.test(String(email).toLowerCase());
-    }
-
-});
 
 // MODAL WORK 
 // MODAL WORK (AJAX SAFE VERSION)

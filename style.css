@@ -735,15 +735,16 @@ h3 {
 
 .kids-featured {
     padding: 60px 24px;
-    background: #f0f8ff;
+    background: #0a0f1e;
     text-align: center;
     margin: 10px;
+    border-radius: 10px;
 }
 
 .kids-featured h2 {
     font-size: 34px;
     margin-bottom: 40px;
-    color: #212529;
+    color: #e5e7eb;
 }
 
 .kids-grid {
@@ -777,7 +778,7 @@ h3 {
     margin: 0px auto 45px;
     font-size: 18px;
     line-height: 1.7;
-    color: #555;
+    color: #e5e7eb;
 }
 
 /* PAGE END */
@@ -788,7 +789,7 @@ h3 {
     max-width: 900px;
     margin: 50px auto;
     padding: 30px 20px;
-    background: #f0f8ff;
+    background: #0A0F1E;
     border-radius: 15px;
     box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
     font-family: 'Arial', sans-serif;
@@ -802,13 +803,14 @@ h3 {
     border-radius: 10px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
+    border: 1px solid #38BDF8;
 }
 
 .steps-container h2 {
     font-size: 32px;
     text-align: center;
     margin-bottom: 15px;
-    color: #212529;
+    color: #e5e7eb;
     font-weight: bold;
 }
 
@@ -823,7 +825,7 @@ h3 {
     font-size: 18px;
     line-height: 1.7;
     margin-bottom: 20px;
-    color: #555;
+    color: #e5e7eb;
 }
 
 .steps-list {
@@ -875,6 +877,23 @@ h3 {
     transform: translateY(-3px);
 }
 
+#backanimals {
+    display: inline-block;
+    margin-top: 35px;
+    padding: 12px 25px;
+    background: #4a90e2;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#backanimals:hover {
+    background: #357abd;
+    transform: translateY(-3px);
+}
+
 #backelders {
     display: inline-block;
     margin-top: 35px;
@@ -895,15 +914,16 @@ h3 {
 /* Elders page start */
 .elders-featured {
     padding: 60px 24px;
-    background: #f0f8ff;
+    background: #0A0F1E;
     text-align: center;
     margin: 10px;
+    border-radius: 10px;
 }
 
 .elders-featured h2 {
     font-size: 34px;
     margin-bottom: 40px;
-    color: #212529;
+    color: #e5e7eb;
 }
 
 .elders-grid {
@@ -937,7 +957,7 @@ h3 {
     margin: 0px auto 45px;
     font-size: 18px;
     line-height: 1.7;
-    color: #555;
+    color: #e5e7eb;
 }
 
 /* FEED BACK CONTAINER */
@@ -997,7 +1017,7 @@ h3 {
     display: block;
     font-weight: 600;
     margin-bottom: 5px;
-    color: #e5e7eb;
+    color: #38BDF8;
 }
 
 .feedback-form input,
@@ -1010,6 +1030,7 @@ h3 {
     outline: none;
     transition: all 0.3s ease;
     background: #0f172a;
+    color: #e5e7eb;
 }
 
 .feedback-form input:focus,
@@ -1095,7 +1116,7 @@ h3 {
 
 .contact-form {
     flex: 1;
-    background: #ffffff;
+    background: #142338;
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
@@ -1110,6 +1131,7 @@ h3 {
     display: block;
     font-weight: 600;
     margin-bottom: 6px;
+    color: #38BDF8;
 }
 
 .contact-form input,
@@ -1119,6 +1141,14 @@ h3 {
     border-radius: 10px;
     border: 1px solid #ccc;
     font-size: 16px;
+    background: #0F172A;
+    color: #e5e7eb;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #4a90e2;
+    box-shadow: 0 0 8px rgba(74, 144, 226, 0.4);
 }
 
 .contact-btn {
@@ -1220,92 +1250,84 @@ h3 {
 
 /* MODAL WORK CSS */
 
-.origami-modal {
-    position: fixed;
-    inset: 0;
-    display: none;
-    justify-content: center;
-    align-items: center;
-    z-index: 5000;
+.origami-modal{
+  position: fixed;
+  inset: 0;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 5000;
 }
 
-.modal-overlay {
-    position: absolute;
-    inset: 0;
-    background: rgba(2, 6, 23, 0.87);
-    backdrop-filter: blur(6px);
+.modal-overlay{
+  position: absolute;
+  inset: 0;
+  background: rgba(2,6,23,0.85);
+  backdrop-filter: blur(6px);
 }
 
-.modal-content {
-    position: relative;
-    width: 90%;
-    max-width: 520px;
-    background: #020617;
-    border-radius: 18px;
-    padding: 22px;
-    text-align: center;
-    animation: modalZoom .35s ease;
-    box-shadow: 0 0 35px rgba(56, 189, 248, 0.35);
+.modal-content{
+  position: relative;
+  width: 90%;
+  max-width: 520px;
+  background: #020617;
+  border-radius: 18px;
+  padding: 22px;
+  text-align: center;
+  animation: modalZoom .35s ease;
+  box-shadow: 0 0 35px rgba(56,189,248,0.35);
 }
 
-.modal-content img {
-    width: 100%;
-    border-radius: 14px;
-    margin-bottom: 15px;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+.modal-content img{
+  width: 100%;
+  border-radius: 14px;
+  margin-bottom: 15px;
 }
 
-.modal-content h2 {
-    color: #38bdf8;
-    margin-bottom: 8px;
+.modal-content h2{
+  color: #38bdf8;
+  margin-bottom: 8px;
 }
 
-.modal-content p {
-    color: #e5e7eb;
-    font-size: 15px;
-    line-height: 1.6;
+.modal-content p{
+  color: #e5e7eb;
+  font-size: 15px;
+  line-height: 1.6;
 }
 
-.modal-extra {
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-    margin-top: 15px;
-    flex-wrap: wrap;
+.modal-extra{
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 15px;
+  flex-wrap: wrap;
 }
 
-.modal-extra span {
-    background: #0f172a;
-    color: #38bdf8;
-    padding: 6px 14px;
-    border-radius: 20px;
-    font-size: 13px;
-    border: 1px solid rgba(56, 189, 248, 0.3);
+.modal-extra span{
+  background: #0f172a;
+  color: #38bdf8;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 13px;
+  border: 1px solid rgba(56,189,248,0.3);
 }
 
-.modal-close {
-    position: absolute;
-    top: 12px;
-    right: 15px;
-    font-size: 30px;
-    cursor: pointer;
-    color: #fff;
+.modal-close{
+  position: absolute;
+  top: 12px;
+  right: 15px;
+  font-size: 30px;
+  cursor: pointer;
+  color: #fff;
 }
 
-.modal-close:hover {
-    color: #38bdf8;
+.modal-close:hover{
+  color: #38bdf8;
 }
 
-@keyframes modalZoom {
-    from {
-        transform: scale(0.8);
-        opacity: 0;
-    }
-
-    to {
-        transform: scale(1);
-        opacity: 1;
-    }
+@keyframes modalZoom{
+  from{transform: scale(0.8); opacity: 0;}
+  to{transform: scale(1); opacity: 1;}
 }
 
 
@@ -1565,6 +1587,7 @@ h3 {
     .feedback-form textarea {
         font-size: 15px;
         padding: 10px 12px;
+
     }
 
     .feedback-btn {

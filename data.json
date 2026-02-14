@@ -28,6 +28,226 @@
     "title": "Origami Star",
     "image": "home-images/home page-6.jpg",
     "description": "A simple, decorative paper star folded using origami techniques, perfect for crafts or festive decorations."
-  }
+  } ,
+  {
+   "id": 6,
+   "title": "Origami Box",
+   "image": "home-images/home page-7.jpg",
+   "description": "A practical and versatile origami model that can be used for storage or as a gift box."
+  },
+   {
+    "id": 7,
+    "title": "Origami Turtle",
+    "image": "home-images/home page-8.jpg",
+    "description": "The origami turtle is a classic and charming model that symbolizes patience, wisdom, and longevity."
+  },
+   {
+    "id": 8,
+    "title": "Origami Flower",
+    "image": "home-images/home page-9.jpg",
+    "description": "The origami flower is a beautiful and delicate model that symbolizes growth, beauty, and new beginnings."
+  },
+   {
+    "id": 9,
+    "title": "Origami Bookmark",
+    "image": "home-images/home page-10.jpg",
+    "description": "The origami bookmark is a simple and useful model that helps mark your place in a book."
+  },
+   {
+    "id": 10,
+    "title": "Origami Box",
+    "image": "home-images/origami-boxes-1.webp",
+    "description": "The origami box is a stylish and functional paper model, perfect for organizing small items or presenting gifts in a creative way."
+   },
+   {
+    "id": 11,
+    "title": "Origami Cat",
+    "image": "home-images/home-fol-fav-1.jpg",
+    "description": "The origami cat is a cute and charming model that symbolizes playfulness, agility, and independence."
+  },
+    {
+    "id": 12,
+    "title": "Origami Bookmark",
+    "image": "home-images/origami-bookmark-1.webp",
+    "description": "This origami bookmark is a functional and decorative paper craft designed to neatly mark pages without damaging your book."
+  },
+   {
+    "id": 13,
+    "title": "Origami Envelope",
+    "image": "home-images/home-fol-fav-3.jpg",
+    "description": "The origami envelope is a practical and elegant model that can be used for storing small items or as a decorative element."
+    },
+   {
+    "id": 14,
+    "title": "Origami Swan",
+    "image": "home-images/home-fol-fav-4.jpg",
+    "description": "This origami swan is a beautifully crafted paper model that symbolizes beauty and precision, ideal for decorative purposes."
+  },
+   {
+    "id": 15,
+    "title": "Origami Fox",
+    "image": "home-images/home-fol-fav-5.jpg",
+    "description": "A playful origami fox that highlights detailed folding techniques and adds a fun, artistic touch to any collection."
+    },
+  {
+    "id": 16,
+    "title": "Origami Dragon",
+    "image": "home-images/home-fol-fav-6.jpg",
+    "description": "The origami dragon is a complex and impressive model that symbolizes strength, wisdom, and good luck."
+  },
+  {
+    "id": 17,
+    "title": "Origami Rabbit",
+    "image": "home-images/home-fol-fav-7.jpg",
+    "description": "This origami rabbit is a neatly folded paper craft that reflects precision and creativity, ideal for artistic decoration."
+  },
+   {
+    "id": 18,
+    "title": "Origami Crane",
+    "image": "home-images/home page-2.jpg",
+    "description": "The origami crane is a classic and elegant model that symbolizes peace, longevity, and good fortune."
+  },
+   {
+    "id": 19,
+    "title": "Origami Heart",
+    "image": "home-images/home page-3.jpg",
+    "description": "A compact origami heart crafted with smooth folds, perfect for cards, gifts, or creative decorations."
+
+  },
+   {
+    "id": 20,
+    "title": "Origami Ninja Star",
+    "image": "home-images/home-fol-fav-8.jpg",
+    "description": "A traditional folded star known worldwide as a symbol of hope, guidance, and inspiration."
+
+  },
+  {
+    "id": 21,
+    "title": "Origami Animals",
+    "image": "home-images/origami-animals-1.jpg",
+    "description": "An engaging paper craft that represents different animals through structured folding techniques, ideal for learning and decoration."
+
+  },
+   {
+    "id": 22,
+    "title": "Origami Birds",
+    "image": "home-images/origami-birds-1.jpg",
+    "description": "Origami birds crafted with detailed folds that capture the beauty and motion of flying creatures in paper form."
+
+
+  },
+   {
+    "id": 23,
+    "title": "Origami Flower",
+    "image": "home-images/origami-flowers-1.jpg",
+    "description": "An artistic paper flower that showcases intricate folds and realistic petal shapes, ideal for decoration and display."
+
+
+  },
+   {
+    "id": 24,
+    "title": "Origami Heart",
+    "image": "home-images/origami-heatr-1.jpg",
+    "description": "A delicate origami heart that conveys love and care, perfect as a handmade gift or thoughtful keepsake."
+  },
+  {
+    "id": 25,
+    "title": "Origami Box",
+    "image": "home-images/origami-boxes-1.webp",
+    "description": "Transform a flat sheet of paper into a functional origami box, perfect for storing small treasures or presenting a handmade gift."
+  },
+  {
+    "id": 26,
+    "title": "Origami Fall",
+    "image": "home-images/origami-fall-1.jpg",
+    "description": "A simple origami autumn leaf, crafted for decoration, crafts, or seasonal art projects."
+
+  },
+   {
+    "id": 27,
+    "title": "Origami Fan",
+    "image": "home-images/origami-fan-1.jpg",
+    "description": "An origami fan crafted from paper, combining elegance and functionality, perfect for decoration or as a creative handmade accessory."
+  },
+   {
+    "id": 28,
+    "title": "Origami Winter",
+    "image": "home-images/origami-winter-1.jpg",
+    "description": "A simple origami winter design, crafted to evoke the charm and serenity of the season."
+  },
+   {
+    "id": 29,
+    "title": "Origami Birds",
+    "image": "home-images/origami-gallery-birds-5.jpg",
+    "description": "A series of playful paper birds, each showcasing unique folds and lively shapes for decoration or gifts."
+  },
+   {
+    "id": 30,
+    "title": "Origami Panda",
+    "image": "home-images/origami-gallery-panda-3.jpg",
+    "description": "The origami panda is a charming model that symbolizes peace and cuteness, crafted with careful folds to create a lifelike representation."
+  },
+  {
+    "id": 31,
+    "title": "Origami Koi",
+    "image": "home-images/origami-gallery-koi-1.jpg",
+    "description": "A beautifully folded origami Koi fish, capturing the flowing elegance and vibrant spirit of this iconic aquatic creature."
+
+  },
+   {
+    "id": 32,
+    "title": "Origami Gallery Mouse",
+    "image": "home-images/origami-gallery-mouse-2.webp",
+    "description": "A small and clever origami mouse crafted with precise folds, perfect for display or as part of an origami collection."
+  },
+   {
+    "id": 33,
+    "title": "Origami Snail",
+    "image": "home-images/origami-gallery-snail-4.jpg",
+    "description": "A playful paper snail design featuring intricate folds, bringing this slow-moving creature to life in origami form."
+  },
+   {
+    "id": 34,
+    "title": "Origami Panda",
+    "image": "home-images/origami-gallery-panda-3.jpg",
+    "description": "An origami panda design that turns paper into a delightful and decorative animal model."
+
+    },
+    {
+    "id": 35,
+    "title": "Origami Birds",
+    "image": "home-images/origami-gallery-birds-5.jpg",
+    "description": "A collection of origami birds, each crafted with unique folds to create a variety of lively and decorative paper birds, perfect for display or gifting."
+   },
+   {
+    "id": 36,
+    "title": "Origami Basket Chicken",
+    "image": "home-images/origami-gallery-basketchick-6.jpg",
+    "description": "A beautifully folded origami basket chicken, showcasing intricate details and a practical design, perfect for decoration or as a creative gift."
+    },
+    {
+    "id": 37,
+    "title": "Origami Chicken",
+    "image": "home-images/origami-gallery-chicken-7.jpg",
+    "description": "A cheerful origami chicken with crisp folds, perfect for decoration or adding a whimsical touch to your paper craft collection."
+   },
+    {
+      "id": 38,
+      "title": "Origami Parrot",
+      "image": "home-images/origami-gallery-parrot-8.jpg",
+      "description": "A vibrant origami parrot design, crafted with detailed folds to capture the colorful and lively essence of this tropical bird."
+    },
+    {
+      "id": 39,
+      "title": "Origami Sparrow",
+      "image": "home-images/origami-sparrow.jpg",
+      "description": "A delicate origami sparrow, crafted with precise folds to create a charming and lifelike paper bird."
+    },
+    {
+      "id": 40,
+      "title": "Origami Swallow",
+      "image": "home-images/origami-swallow.jpg",
+      "description": "An elegant origami swallow design, featuring smooth folds that capture the grace and agility of this iconic bird."
+    }
 ]
 
