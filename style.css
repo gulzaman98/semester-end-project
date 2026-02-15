@@ -528,6 +528,7 @@ h3 {
     display: flex;
     align-items: center;
     gap: 50px;
+    background: #142338;
 }
 
 .about-row .reverse {
@@ -536,6 +537,8 @@ h3 {
 
 .about-text {
     flex: 1;
+    padding: 20px;
+
 }
 
 .about-text h2 {
@@ -556,9 +559,16 @@ h3 {
 
 .about-image img {
     width: 100%;
-    border-radius: 14px;
+    border-radius: 10px;
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
     object-fit: cover;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.about-image img:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 20px 40px rgba(56, 189, 248, 0.25);
+    cursor: pointer;
 }
 
 
@@ -877,7 +887,8 @@ h3 {
     transform: translateY(-3px);
 }
 
-#backanimals {
+#backanimals,
+#backflower {
     display: inline-block;
     margin-top: 35px;
     padding: 12px 25px;
@@ -889,7 +900,8 @@ h3 {
     cursor: pointer;
 }
 
-#backanimals:hover {
+#backanimals,
+#backflower:hover {
     background: #357abd;
     transform: translateY(-3px);
 }
@@ -1250,84 +1262,91 @@ h3 {
 
 /* MODAL WORK CSS */
 
-.origami-modal{
-  position: fixed;
-  inset: 0;
-  display: none;
-  justify-content: center;
-  align-items: center;
-  z-index: 5000;
+.origami-modal {
+    position: fixed;
+    inset: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 5000;
 }
 
-.modal-overlay{
-  position: absolute;
-  inset: 0;
-  background: rgba(2,6,23,0.85);
-  backdrop-filter: blur(6px);
+.modal-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(2, 6, 23, 0.85);
+    backdrop-filter: blur(6px);
 }
 
-.modal-content{
-  position: relative;
-  width: 90%;
-  max-width: 520px;
-  background: #020617;
-  border-radius: 18px;
-  padding: 22px;
-  text-align: center;
-  animation: modalZoom .35s ease;
-  box-shadow: 0 0 35px rgba(56,189,248,0.35);
+.modal-content {
+    position: relative;
+    width: 90%;
+    max-width: 520px;
+    background: #020617;
+    border-radius: 18px;
+    padding: 22px;
+    text-align: center;
+    animation: modalZoom .35s ease;
+    box-shadow: 0 0 35px rgba(56, 189, 248, 0.35);
 }
 
-.modal-content img{
-  width: 100%;
-  border-radius: 14px;
-  margin-bottom: 15px;
+.modal-content img {
+    width: 100%;
+    border-radius: 14px;
+    margin-bottom: 15px;
 }
 
-.modal-content h2{
-  color: #38bdf8;
-  margin-bottom: 8px;
+.modal-content h2 {
+    color: #38bdf8;
+    margin-bottom: 8px;
 }
 
-.modal-content p{
-  color: #e5e7eb;
-  font-size: 15px;
-  line-height: 1.6;
+.modal-content p {
+    color: #e5e7eb;
+    font-size: 15px;
+    line-height: 1.6;
 }
 
-.modal-extra{
-  display: flex;
-  justify-content: center;
-  gap: 15px;
-  margin-top: 15px;
-  flex-wrap: wrap;
+.modal-extra {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 15px;
+    flex-wrap: wrap;
 }
 
-.modal-extra span{
-  background: #0f172a;
-  color: #38bdf8;
-  padding: 6px 14px;
-  border-radius: 20px;
-  font-size: 13px;
-  border: 1px solid rgba(56,189,248,0.3);
+.modal-extra span {
+    background: #0f172a;
+    color: #38bdf8;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 13px;
+    border: 1px solid rgba(56, 189, 248, 0.3);
 }
 
-.modal-close{
-  position: absolute;
-  top: 12px;
-  right: 15px;
-  font-size: 30px;
-  cursor: pointer;
-  color: #fff;
+.modal-close {
+    position: absolute;
+    top: 12px;
+    right: 15px;
+    font-size: 30px;
+    cursor: pointer;
+    color: #fff;
 }
 
-.modal-close:hover{
-  color: #38bdf8;
+.modal-close:hover {
+    color: #38bdf8;
 }
 
-@keyframes modalZoom{
-  from{transform: scale(0.8); opacity: 0;}
-  to{transform: scale(1); opacity: 1;}
+@keyframes modalZoom {
+    from {
+        transform: scale(0.8);
+        opacity: 0;
+    }
+
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
 }
 
 

@@ -63,6 +63,11 @@ $(document).ready(function () {
         loadpage("animals")
     })
 
+        $("#flower").click(function (e) {
+        e.preventDefault();
+        loadpage("flower")
+    })
+
     // CARDS 
 
     $(document).on("click", ".card", function () {
@@ -83,6 +88,9 @@ $(document).ready(function () {
 
      $(document).on("click", "#backanimals", function () {
         loadpage("animals");
+    })
+     $(document).on("click", "#backflower", function () {
+        loadpage("flower");
     })
 
     // LOAD INITIAL PAGE
