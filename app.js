@@ -67,6 +67,11 @@ $(document).ready(function () {
         e.preventDefault();
         loadpage("flower")
     })
+          $("#birds").click(function (e) {
+        e.preventDefault();
+        loadpage("birds")
+    })
+    
 
     // CARDS 
 
@@ -91,6 +96,10 @@ $(document).ready(function () {
     })
      $(document).on("click", "#backflower", function () {
         loadpage("flower");
+    })
+
+      $(document).on("click", "#backbirds", function () {
+        loadpage("birds");
     })
 
     // LOAD INITIAL PAGE

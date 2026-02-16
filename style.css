@@ -888,6 +888,7 @@ h3 {
 }
 
 #backanimals,
+#backbirds,
 #backflower {
     display: inline-block;
     margin-top: 35px;
@@ -901,6 +902,7 @@ h3 {
 }
 
 #backanimals,
+#backbird,
 #backflower:hover {
     background: #357abd;
     transform: translateY(-3px);
