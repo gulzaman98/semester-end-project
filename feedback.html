@@ -11,26 +11,31 @@
 
 
     <div class="feedback-form-wrapper">
-        <form class="feedback-form">
-            <div class="form-group" id="myform">
-                <label for="name">Name</label>
-                <input type="text" id="name" placeholder="Enter your full name" required>
-            </div>
+        <form class="feedback-form" id="feedbackForm">
+           <div class="form-group">
+    <label for="name">Name</label>
+    <input type="text" id="fbName" placeholder="Enter your full name" required>
+    <small></small>
+</div>
 
-            <div class="form-group">
-                <label for="email">Email</label>
-                <input type="email" id="email" placeholder="Enter your email" required>
-            </div>
+<div class="form-group">
+    <label for="email">Email</label>
+    <input type="email" id="fbEmail" placeholder="Enter your email" required>
+    <small></small>
+</div>
 
-            <div class="form-group">
-                <label for="subject">Subject</label>
-                <input type="text" id="subject" placeholder="Subject" required>
-            </div>
+<div class="form-group">
+    <label for="subject">Subject</label>
+    <input type="text" id="fbSubject" placeholder="Subject" required>
+    <small></small>
+</div>
 
-            <div class="form-group">
-                <label for="message">Message</label>
-                <textarea id="message" rows="6" placeholder="Your message..." required></textarea>
-            </div>
+<div class="form-group">
+    <label for="message">Message</label>
+    <textarea id="fbMessage" rows="6" placeholder="Your message..." required></textarea>
+    <small></small>
+</div>
+
 
             <button type="submit" class="feedback-btn" id="submitbtn">Submit Feedback</button>
         </form>
