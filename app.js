@@ -76,6 +76,10 @@ $(document).ready(function () {
         e.preventDefault();
         loadpage("fish")
     })
+      $("#useful").click(function (e) {
+        e.preventDefault();
+        loadpage("useful")
+    })
 
 
     // CARDS 
@@ -102,9 +106,14 @@ $(document).ready(function () {
     $(document).on("click", "#backflower", function () {
         loadpage("flower");
     })
-
     $(document).on("click", "#backbirds", function () {
         loadpage("birds");
+    })
+       $(document).on("click", "#backfish", function () {
+        loadpage("fish");
+    })
+        $(document).on("click", "#backuseful", function () {
+        loadpage("useful");
     })
 
     // LOAD INITIAL PAGE
